@@ -29,19 +29,19 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white py-20">
         {/* Logo/Brand */}
-        <div className="mb-6 animate-fade-in">
-          <div className="w-24 h-24 p-2 mx-auto rounded-full bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center shadow-2xl mb-4">
+        <div className="mb-8 animate-fade-in">
+          <div className="lg:w-[30rem] h-24 p-2 mx-auto rounded-full flex items-center justify-center shadow-2xl mb-4">
             {/* <span className="text-5xl font-bold text-white">D</span> */}
             <img src="./logo.png" alt="Dekleineman Logo" />
           </div>
         </div>
 
         {/* Restaurant name */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
+        {/* <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
           <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-800 bg-clip-text text-transparent uppercase tracking-widest">
             Bombay Spice
           </span>
-        </h1>
+        </h1> */}
 
         {/* Tagline */}
         <p className="text-xl md:text-2xl text-orange-400 font-semibold mb-8 max-w-3xl mx-auto leading-relaxed tracking-widest">
